@@ -1,0 +1,8 @@
+
+{
+  "[markdown]": {
+    "editor.quickSuggestions": true
+  },
+  "memo.links.format": "long",
+  "editor.suggest.showWords": false,
+}

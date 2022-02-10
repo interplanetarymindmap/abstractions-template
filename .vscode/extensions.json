@@ -1,0 +1,10 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    // Handles the wikilinks
+    "svsool.markdown-memo",
+    // Adds `show graph` command that displays graph of linked notes
+    "tchayen.markdown-links",
+  ]
+}

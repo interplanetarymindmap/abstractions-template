@@ -1,0 +1,72 @@
+{
+  //Place your foam workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+  "Intent ID ": {
+    "prefix": "IID (Intent Identifier)",
+    "body": [
+      "[[$1-${CURRENT_SECONDS_UNIX}]]"
+    ],
+    "description": "Template for a intent identifier"
+  },
+
+  "View": {
+    //"scope": "markdown",
+    "prefix": "View",
+    "body": [
+      "---",
+      "xavi-1644219237/prop-name-1612697362: $1",
+      "xavi-1644219237/prop-abstract-1612698044: $2",
+      "---",
+      "",
+      "$0"
+    ],
+    "description": "View"
+  },
+ 
+  "Property": {
+    "prefix": "Properties list selection",
+    "body": "${1|xavi-1644219237/prop-name-1612697362,xavi-1644219237/prop-view-1612698885,xavi-1644219237/prop-abstract-1612698044,xavi-1644219237/prop-transform-1638987875,xavi-1644219237/prop-ipfoam-type-1630602741|}",
+    "description": "Shows list of properties IDs"
+  },
+  
+  "Type": {
+    "prefix": "Type",
+    "body": [
+      "---",
+      "xavi-1644219237/prop-ipfoam-type-1630602741: ",
+      " defaultName: $1",
+      " represents: $2",
+      " constrains: $3",
+      " typeDependecies: $4",
+      " ipldSchema: $5",
+      "---"
+    ],
+    "description": "Creates a template for a new type"
+  },
+
+  "Transform": {
+    "prefix": "Transform",
+    "body": [
+      "---",
+      "xavi-1644219237/prop-name-1612697362: $1",
+      "xavi-1644219237/prop-transform-1638987875: $2",
+      "---"
+    ],
+    "description": "Creates a template for a new transform"
+  
+  }
+}
