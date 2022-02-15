@@ -16,16 +16,16 @@
   // 	"description": "Log output to console"
   // }
   "Intent ID ": {
-    "prefix": "IID (Intent Identifier)",
+    "prefix": ["iid", "intent"],
     "body": [
       "[[$1-${CURRENT_SECONDS_UNIX}]]"
     ],
-    "description": "Template for a intent identifier"
+    "description": "Intent identifier"
   },
 
   "View": {
     //"scope": "markdown",
-    "prefix": "View",
+    "prefix": "view",
     "body": [
       "---",
       "xavi-1644219237/prop-name-1612697362: $1",
@@ -38,13 +38,13 @@
   },
  
   "Property": {
-    "prefix": "Properties list selection",
+    "prefix": "properties",
     "body": "${1|xavi-1644219237/prop-name-1612697362,xavi-1644219237/prop-view-1612698885,xavi-1644219237/prop-abstract-1612698044,xavi-1644219237/prop-transform-1638987875,xavi-1644219237/prop-ipfoam-type-1630602741|}",
     "description": "Shows list of properties IDs"
   },
   
   "Type": {
-    "prefix": "Type",
+    "prefix": "type",
     "body": [
       "---",
       "xavi-1644219237/prop-ipfoam-type-1630602741: ",
@@ -59,7 +59,7 @@
   },
 
   "Transform": {
-    "prefix": "Transform",
+    "prefix": "transform",
     "body": [
       "---",
       "xavi-1644219237/prop-name-1612697362: $1",
