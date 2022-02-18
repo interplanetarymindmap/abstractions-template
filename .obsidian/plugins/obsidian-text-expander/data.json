@@ -1,0 +1,9 @@
+{
+  "shortcuts": [
+    {
+      "regex": "^iid:",
+      "command": "name=`echo <text>- | cut -c 5-`;startbrackets=[[;timestamp=$(printf `date +%s`);endbrackets=]];printf $startbrackets$name$timestamp$endbrackets"
+    }
+  ],
+  "shell": "/bin/sh"
+}

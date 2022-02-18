@@ -6,5 +6,7 @@ prop-ipfoam-type-1630602741:
     - interplanetary-text
     - Should give a high level overview of the the note content to the reader
     - Should not include the IID of the Note itself
+    - Often responds to the question "What is my understanding of <abstraction>?"
+    - Should be no more than one paragraph
   ipldSchema: type root [string]
 ---

@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "8dc8e6e4e3268f18",
+    "type": "split",
+    "children": [
+      {
+        "id": "f87ca34fdd3fab79",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "xavi-1644219237/prop-abstract-1612698044.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "48411d508a8b973c",
+    "type": "split",
+    "children": [
+      {
+        "id": "048254a33041c9c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffca8ccd8df7f1af",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7f05400c2e0be4a2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9d0f75a325172514",
+    "type": "split",
+    "children": [
+      {
+        "id": "1835fd38815ce8b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d349f5ecb337473",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "xavi-1644219237/prop-abstract-1612698044.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f87ca34fdd3fab79",
+  "lastOpenFiles": [
+    "xavi-1644219237/prop-abstract-1612698044.md",
+    "test.md",
+    "obsidian-templates/Timestamp.md",
+    "obsidian-templates/Intent identitifier.md"
+  ]
+}
